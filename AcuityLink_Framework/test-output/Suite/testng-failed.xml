@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="script.Valid_Email_TC1"/>
+      <class name="script.Invalid_Email_TC2"/>
+      <class name="script.UserLockScenario_TC3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="script.UserLockScenario_TC3">
+        <methods>
+          <include name="openApp"/>
+          <include name="invalidEmail"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.UserLockScenario_TC3 -->
+      <class name="script.Valid_Email_TC1">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Valid_Email_TC1 -->
+      <class name="script.Invalid_Email_TC2">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Invalid_Email_TC2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

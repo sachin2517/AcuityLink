@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HCF Successful Login.]]>
+    </line>
+    <line>
+      <![CDATA[1st Page is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[2nd Page is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[3rd Page is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[5th Page is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Review Page is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Request is created Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Test: createRequestProcess is Pass]]>
+    </line>
+    <line>
+      <![CDATA[TestName: createRequestProcess Status: Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68488" started-at="2019-07-26T11:22:59Z" finished-at="2019-07-26T11:24:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68488" started-at="2019-07-26T11:22:59Z" finished-at="2019-07-26T11:24:07Z">
+      <class name="script.OneWayRequestCreation_DCustom">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.OneWayRequestCreation_DCustom@26653222]" name="openApp" is-config="true" duration-ms="14790" started-at="2019-07-26T07:22:59Z" finished-at="2019-07-26T07:23:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="createRequestProcess()[pri:0, instance:script.OneWayRequestCreation_DCustom@26653222]" name="createRequestProcess" duration-ms="53143" started-at="2019-07-26T07:23:14Z" finished-at="2019-07-26T07:24:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HCF Successful Login.]]>
+            </line>
+            <line>
+              <![CDATA[1st Page is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[2nd Page is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[3rd Page is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[5th Page is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Review Page is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Request is created Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Test: createRequestProcess is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createRequestProcess -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.OneWayRequestCreation_DCustom@26653222]" name="closeApp" is-config="true" duration-ms="521" started-at="2019-07-26T07:24:07Z" finished-at="2019-07-26T07:24:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createRequestProcess status=SUCCESS method=OneWayRequestCreation_DCustom.createRequestProcess()[pri:0, instance:script.OneWayRequestCreation_DCustom@26653222] output=HCF Successful Login.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestName: createRequestProcess Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.OneWayRequestCreation_DCustom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
