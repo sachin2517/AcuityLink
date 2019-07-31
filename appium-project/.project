@@ -1,0 +1,8 @@
+#Wed Jan 30 00:41:18 EST 2019
+platform=GENERIC
+version=1
+mobile=false
+translator=Java (JUnit 5 + Appium Client 5)
+default.ios.user=root
+default.ios.password=alpine
+app.name=ios_app\:iPhone
